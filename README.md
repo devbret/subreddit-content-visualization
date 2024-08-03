@@ -1,17 +1,15 @@
 # Interactive Subreddit Word Cloud
 
-![Preview Of Resulting Visualization](https://hosting.photobucket.com/images/i/bernhoftbret/programming-subreddit-word-cloud.jpg)
+![Preview Of Resulting Visualization](https://hosting.photobucket.com/images/i/bernhoftbret/technology-subreddits-word-cloud.png)
 
 Visualize popular phrases from recent content on various subreddits as an interactive word cloud, using Python and D3.
 
-If you would like to view a demo of this program, here is [a YouTube video](https://youtu.be/xsDcf0VjNgU) you might find useful.
-
 ## Set Up
 
-### Programs Needed 
+### Programs Needed
 
-- [Git](https://git-scm.com/downloads)
-- [Python](https://www.python.org/downloads/) (When installing on Windows, make sure you check the ["Add python 3.xx to PATH"](https://hosting.photobucket.com/images/i/bernhoftbret/python.png) box.)
+-   [Git](https://git-scm.com/downloads)
+-   [Python](https://www.python.org/downloads/) (When installing on Windows, make sure you check the ["Add python 3.xx to PATH"](https://hosting.photobucket.com/images/i/bernhoftbret/python.png) box.)
 
 ### Steps
 
