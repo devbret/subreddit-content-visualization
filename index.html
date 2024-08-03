@@ -57,14 +57,14 @@
                     const sizeScale = d3
                         .scaleSqrt()
                         .domain([d3.min(words, (d) => d.frequency), d3.max(words, (d) => d.frequency)])
-                        .range([20, 120]);
+                        .range([10, 100]);
                     const colorScale = d3.scaleOrdinal(d3.schemeTableau10);
                     const layout = d3.layout
                         .cloud()
                         .size([width, height])
                         .words(words.map((d) => ({ text: d.phrase, size: sizeScale(d.frequency), frequency: d.frequency })))
                         .padding(5)
-                        .rotate(() => ~~(Math.random() * 5) * 30)
+                        .rotate(() => (Math.random() > 0.5 ? 0 : 90))
                         .fontSize((d) => d.size)
                         .on('end', draw);
                     layout.start();

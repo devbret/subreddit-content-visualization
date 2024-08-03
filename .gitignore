@@ -1,1 +1,3 @@
 bigram_frequencies.json
+venv/
+.vscode
